@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guess The Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game">
+    <h1>🎯 Guess The Number</h1>
+    <p class="sub">1 se 100 ke beech number guess karo!</p>
+
+    <div class="stats">
+      <span>❤️ Lives: <b id="lives">7</b></span>
+      <span>⭐ Score: <b id="score">100</b></span>
+    </div>
+
+    <input type="number" id="guessInput" placeholder="Enter your guess">
+    <button onclick="checkGuess()">Guess</button>
+
+    <h2 id="message">Game start karo 🚀</h2>
+    <p id="hint">Hint yaha milega...</p>
+
+    <button class="restart" onclick="restartGame()">🔄 Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
